@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
 <title>Ally Thach</title>
+
 <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <link rel="icon" href="pictures/favicon.ico">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="style.css"/>
+
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -37,7 +46,7 @@
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">HI! I'M ALLY THACH</span>
+    <span class="w3-center w3-padding-large w3-black w3-large w3-wide w3-animate-opacity">HI! I'M ALLY THACH</span>
   </div>
 </div>
 
@@ -52,7 +61,7 @@
     </div>
 
     <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
+    <div class="w3-col m6 w3-padding-large">
       <p>My name is Ally Thach, but you can usually find me under the alias baxically.</p>
       
       <p>I'm a rising second year at the University of California, Riverside and am majoring in Computer Science. I'm on the fence about switching to Electrical Engineering, but either way, I hope to declare a minor in Psychology.</p>
@@ -118,7 +127,7 @@
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">CODE</span>
+    <span class="w3-center w3-padding-large w3-black w3-large w3-wide w3-animate-opacity">CODE</span>
   </div>
 </div>
 
@@ -175,11 +184,11 @@
 </div>
 
 <!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">CONTACT ME</span>
+<div class="bgimg-3 w3-display-container w3-opacity-min" id="home">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <span class="w3-center w3-padding-large w3-black w3-large w3-wide w3-animate-opacity">CONTACT ME</span>
+    </div>
   </div>
-</div>
 
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
@@ -220,17 +229,23 @@
 <footer class="w3-center w3-black w3-padding-64 w3-opacity">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
-    <a href="https://www.facebook.com/ally.thach" target="_blank">
-      <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    </a>
+    
+    <i class="fa fa-facebook-official w3-hover-opacity">
+      <a href="https://www.facebook.com/ally.thach" target="_blank"></a>&nbsp;&nbsp;&nbsp;
+    </i>
 
-    <a href="https://www.instagram.com/baxic.ally/" target="_blank"> 
-      <i class="fa fa-instagram w3-hover-opacity"></i>
-    </a>
+    <i class="fa fa-instagram w3-hover-opacity">
+      <a href="https://www.instagram.com/baxic.ally/" target="_blank"> </a>&nbsp;&nbsp;&nbsp;
+    </i>
 
-    <a href="https://www.linkedin.com/in/ally-thach-16615b144/" target="_blank">
-      <i class="fa fa-linkedin w3-hover-opacity"></i>
-    </a>
+    <i class="fa fa-github w3-hover-opacity">
+        <a href="https://github.com/baxically" target="_blank"></a>&nbsp;&nbsp;&nbsp;
+    </i>
+
+    <i class="fa fa-linkedin w3-hover-opacity">
+      <a href="https://www.linkedin.com/in/ally-thach-16615b144/" target="_blank"></a>
+    </i>
+
   </div>
 </footer>
 
